@@ -2,6 +2,11 @@
 
 This project implements a complete pipeline to recognize 49 Kannada letters. It combines deep learning for classification with a modern web application stack. The CNN classifier is built using TensorFlow/Keras, while a FastAPI backend and Next.js (TypeScript) frontend provide a user-friendly interface where users can draw a letter and receive an instant prediction.
 
+## Demo
+
+
+[Screencast from 2025-03-13 01-00-34.webm](https://github.com/user-attachments/assets/2ac763ac-1f91-41d5-849c-864a2a288d87)
+
 ## Overview
 
 The project has two main components:
