@@ -1,0 +1,6 @@
+Kannada_Alphabets
+.ipynb_checkpoints
+.bolt
+__pycache__/
+node_modules/
+env
