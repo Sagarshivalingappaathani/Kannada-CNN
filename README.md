@@ -78,7 +78,7 @@ Following the convolutional layers, the network is flattened and fed through den
 
 ## Inference and Evaluation
 
-The trained model achieved 98% test accuracy.
+The trained model achieved 98.45% test accuracy.
 
 ## Setup and Installation
 
