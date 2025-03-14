@@ -54,6 +54,10 @@ The CNN model consists of three convolutional blocks:
   - Two convolutional layers (128 filters) with batch normalization.
   - Max pooling and dropout.
 
+![422607033-8427b259-3d2b-47be-8270-04bcfd536b11](https://github.com/user-attachments/assets/90dbe440-ed3c-45f4-9b24-a2387f6cd678)
+
+ 
+
 Following the convolutional layers, the network is flattened and fed through dense layers:
 - A dense layer with 128 neurons (ReLU activation) with batch normalization and dropout (50%).
 - A final dense layer with a softmax activation that outputs probabilities for the 49 classes.
@@ -125,3 +129,5 @@ Model training can be found in Jupyter Notebook present in the backend folder.
 
 4. **Open in Browser:**  
    Visit `http://localhost:3000` to interact with the application.
+
+
