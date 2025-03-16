@@ -47,12 +47,12 @@ The CNN model consists of three convolutional blocks:
   - Max pooling layer and dropout (25%).
 
 - **Block 2:**
-  - Two convolutional layers (64 filters) with batch normalization.
-  - Max pooling and dropout.
+  - Two convolutional layers (64 filters, 3x3 kernel, ReLU activation) with batch normalization.
+  - Max pooling and dropout (25%).
 
 - **Block 3:**
-  - Two convolutional layers (128 filters) with batch normalization.
-  - Max pooling and dropout.
+  - Two convolutional layers (128 filters, 3x3 kernel, ReLU activation) with batch normalization.
+  - Max pooling and dropout (25%).
 
 Following the convolutional layers, the network is flattened and fed through dense layers:
 - A dense layer with 128 neurons (ReLU activation) with batch normalization and dropout (50%).
