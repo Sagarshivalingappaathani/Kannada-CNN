@@ -1,6 +1,6 @@
 # Kannada Alphabet Recognition using CNN
 
-This project implements a complete pipeline to recognize 49 Kannada letters. It combines deep learning for classification with a modern web application stack. The CNN classifier is built using TensorFlow/Keras, while a FastAPI backend and Next.js (TypeScript) frontend provide a user-friendly interface where users can draw a letter and receive an instant prediction.
+This project implements a complete pipeline to recognize 49 Kannada letters. It combines deep learning for classification with a modern web application stack. The CNN classifier is built using TensorFlow/Keras, while a FastAPI backend and Next.js (TypeScript) frontend provide a interface where users can draw a letter and receive a prediction.
 
 ## Demo
 
@@ -23,7 +23,7 @@ The project has two main components:
 ### Data Loading and Preprocessing
 
 - **Dataset:**  
-  The dataset can be obtained from here `https://ieee-dataport.org/documents/kannada-language-image-dataset`.
+  The dataset can be obtained from here [https://ieee-dataport.org/documents/kannada-language-image-dataset](https://ieee-dataport.org/documents/kannada-language-image-dataset).
 
 - **Image Configuration:**  
   Images are converted to grayscale and resized to 28x28 pixels.  
@@ -84,7 +84,7 @@ The trained model achieved 98.45% test accuracy.
 
 ### Model Training
 
-Model training can be found in Jupyter Notebook present in the backend folder.
+Model training can be found in Jupyter Notebook present in the notebooks folder.
 
 ### FastAPI Backend
 
